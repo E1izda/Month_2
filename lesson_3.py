@@ -6,7 +6,7 @@ class Car:
         self.__fined = False
 
     def pay_fine(self):
-        # сеттер
+
         if self.__fined:
             self.__fined = False
 
