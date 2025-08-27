@@ -1,22 +1,3 @@
-# import sqlite3
-#
-# def create_tables():
-#     conn.execute("""
-#         CREATE TABLE IF NOT EXISTS books (
-#         name TEXT,
-#         author TEXT,
-#         publication_year INTEGER,
-#         genre TEXT,
-#         number_of_pages INTEGER,
-#         number_of_copies INTEGER
-#         )
-#     """)
-#
-# if __name__ == '__main__':
-#     conn = sqlite3.connect('hw7.db')
-#
-#     create_tables()
-
 import sqlite3
 
 def create_tables():
